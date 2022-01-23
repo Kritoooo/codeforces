@@ -76,17 +76,17 @@ BFS
 ### P1434 [SHOI2002]滑雪
 记忆化搜索。dfs
 ### P1226 【模板】快速幂||取余运算
-ll a,b,p,ans=1;
-	scanf("%lld%lld%lld",&a,&b,&p);
-	int temp1=a,temp2=b;
-	while(b>0){
-		if(b%2==1){
-			ans=ans*a%p;i
-		}
-			a=a*a%p;
-			b=b>>1;
-	}
-	ans=ans%p;
+ll a,b,p,ans=1;  
+	scanf("%lld%lld%lld",&a,&b,&p);  
+	int temp1=a,temp2=b;  
+	while(b>0){  
+		if(b%2==1){  
+			ans=ans*a%p;i  
+		}  
+			a=a*a%p;  
+			b=b>>1;  
+	}  
+	ans=ans%p;  
 ### P3197 [HNOI2008]越狱
 快速幂应用。
 ### P8054 A 质因数
