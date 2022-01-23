@@ -68,3 +68,26 @@ BFS
 希望能上分
 ### B. Elementary Particles
 思维。
+# 2022/1/23
+### P1908 逆序对
+归并排序。
+### P1923 【深基9.例4】求第 k 小的数
+经典的快排。
+### P1434 [SHOI2002]滑雪
+记忆化搜索。dfs
+### P1226 【模板】快速幂||取余运算
+ll a,b,p,ans=1;
+	scanf("%lld%lld%lld",&a,&b,&p);
+	int temp1=a,temp2=b;
+	while(b>0){
+		if(b%2==1){
+			ans=ans*a%p;i
+		}
+			a=a*a%p;
+			b=b>>1;
+	}
+	ans=ans%p;
+### P3197 [HNOI2008]越狱
+快速幂应用。
+### P8054 A 质因数
+思维。
